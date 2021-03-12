@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(40, 73, 133)
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/treviso.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,8 +77,8 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -86,7 +86,13 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(86, 218, 68);
+}
+.name {
+  font-style: oblique;
+}
+.name:hover {
+  color: rgb(40, 73, 133);
 }
 .card {
   margin: 30px;
@@ -97,9 +103,10 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  border: solid black 5px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #360da7;
 }
 
 ul.skills {
