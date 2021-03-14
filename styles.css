@@ -94,6 +94,14 @@ header .profile-image:hover {
 .name:hover {
   color: rgb(40, 73, 133);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+#Scroll{
+  background-color: #f7f5f0;
+  height: 15px;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -125,6 +133,9 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+.paragraph{
+  font-family: 'Gothic Medium' ;
 }
 
 footer {
