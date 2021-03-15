@@ -121,6 +121,17 @@ ul.skills {
   padding: 0;
   text-align: center;
 }
+body .additional-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  border: 3px solid rgb(0, 0, 0);
+  transition: all .5s;
+}
+body .additional-image:hover {
+  transform: scale(1.2) rotate(25deg);
+}  
 
 .skills li {
   border-radius: 6px;
